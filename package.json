@@ -1,0 +1,36 @@
+{
+  "name": "solid2angular",
+  "version": "0.0.1",
+  "description": "A simple library for using SolidJS components in AngularJS applications.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenshixd/solid2angular.git"
+  },
+  "keywords": [
+    "solid",
+    "angularjs",
+    "component",
+    "jsx"
+  ],
+  "author": "zenshixd",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zenshixd/solid2angular/issues"
+  },
+  "homepage": "https://github.com/zenshixd/solid2angular#readme",
+  "devDependencies": {
+    "@types/angular": "^1.8.9",
+    "prettier": "^3.2.5",
+    "solid-js": "^1.8.15",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "angular": "^1.8.3"
+  }
+}
