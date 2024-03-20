@@ -1,8 +1,9 @@
 {
   "name": "solid2angular",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple library for using SolidJS components in AngularJS applications.",
-  "main": "index.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepack": "npm run build",
